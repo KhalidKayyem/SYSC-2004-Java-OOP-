@@ -1,0 +1,5 @@
+﻿# build artifacts
+*.exe
+*.o
+*.obj
+*.class
