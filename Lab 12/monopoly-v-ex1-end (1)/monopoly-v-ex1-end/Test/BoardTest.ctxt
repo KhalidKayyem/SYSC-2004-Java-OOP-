@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=BoardTest
+comment1.params=
+comment1.target=void\ setUp()
+comment2.params=
+comment2.target=void\ tearDown()
+comment3.params=
+comment3.target=void\ init()
+comment4.params=
+comment4.target=void\ close()
+comment5.params=
+comment5.target=void\ testStartingSquare()
+comment6.params=
+comment6.target=void\ testSquareNumbering()
+comment7.params=
+comment7.target=void\ testNextSquare()
+comment8.params=
+comment8.target=void\ testBoardWrapAround()
+numComments=9

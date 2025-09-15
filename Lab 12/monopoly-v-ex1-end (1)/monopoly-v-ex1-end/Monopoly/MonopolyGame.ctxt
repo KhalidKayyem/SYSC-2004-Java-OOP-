@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=MonopolyGame
+comment0.text=\r\n\ A\ simulation\ of\ an\ extremely\ simplified\ version\ of\ the\r\n\ game\ of\ Monopoly.\r\n\ \r\n\ @author\ Lynn\ Marshall,\ SCE,\ Carleton\ University\r\n\ @version\ 1.0\r\n
+comment1.params=
+comment1.target=MonopolyGame()
+comment1.text=\r\n\ Constructs\ a\ new\ MonopolyGame\ with\ no\ players.\r\n
+comment2.params=name
+comment2.target=void\ addPlayer(java.lang.String)
+comment2.text=\r\n\ Adds\ a\ player\ with\ the\ specified\ name\ to\ the\ game.\r\n\r\n\ @param\ name\ The\ player's\ name.\r\n
+comment3.params=rounds
+comment3.target=void\ playGame(int)
+comment3.text=\r\n\ Plays\ the\ game\ for\ the\ specified\ number\ of\ rounds.\r\n\r\n\ @param\ the\ number\ of\ rounds\ to\ play.\r\n
+comment4.params=
+comment4.target=void\ playRound()
+comment4.text=\r\n\ Plays\ one\ round\ of\ the\ game,\ requesting\ each\ player\ to\ take\ one\ turn.\r\n
+numComments=5

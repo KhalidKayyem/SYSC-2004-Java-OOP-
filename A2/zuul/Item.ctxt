@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Item
+comment0.text=\ \r\n\ Class\ Item.\ The\ Item\ class\ represents\ an\ object\ that\ can\ be\ placed\ in\ a\ room\r\n\ within\ the\ "World\ of\ Zuul"\ adventure\ game.\r\n\ \r\n\ Each\ item\ has\ a\ name,\ description\ and\ a\ weight,\ which\ helps\ define\ its\r\n\ characteristics\ in\ the\ game\ world.\r\n\ \r\n\ Items\ can\ be\ added\ to\ rooms\ and\ interacted\ with\ by\ the\ player.\r\n\ \r\n\ @author\ \ Khalid\ Kayyem,\ 101277502\r\n\ @version\ 16-03-2025\r\n
+comment1.params=name\ description\ weight
+comment1.target=Item(java.lang.String,\ java.lang.String,\ double)
+comment1.text=\ \r\n\ Item.\ Constructs\ an\ Item\ with\ a\ given\ name,\ description\ and\ weight.\r\n\ \r\n\ \r\n\ @param\ name\ The\ name\ of\ the\ item\r\n\ @param\ description\ A\ short\ description\ of\ the\ item.\r\n\ @param\ weight\ The\ weight\ of\ the\ item\ in\ kilograms.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ getName.\ this\ method\ returns\ the\ name\ of\ the\ item\r\n\ \r\n\ @return\ the\ name\ of\ the\ item\r\n
+comment3.params=
+comment3.target=java.lang.String\ getDescription()
+comment3.text=\r\n\ getDescription.\ Returns\ a\ description\ of\ the\ item,\ including\ its\ weight,\ and\ name.\r\n\ \r\n\ @return\ A\ string\ describing\ the\ item,\ its\ name,\ and\ its\ weight.\r\n
+numComments=4

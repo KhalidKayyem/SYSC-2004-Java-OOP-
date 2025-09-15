@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Car
+comment0.text=\r\n\ Class\ Car\ -\ nonsense\ class\ for\ debugger\ demo\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 13\ August\ 1999\r\n
+comment1.params=frontSeats\ backSeats
+comment1.target=Car(int,\ int)
+comment1.text=\r\n\ Create\ a\ car\ with\ seat\ numbers\r\n
+comment2.params=
+comment2.target=int\ seats()
+comment2.text=\r\n\ Return\ the\ number\ of\ seats\ in\ the\ car.\r\n
+numComments=3

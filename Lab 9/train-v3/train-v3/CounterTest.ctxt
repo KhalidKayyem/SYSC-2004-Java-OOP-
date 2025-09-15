@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CounterTest
+comment0.text=\r\n\ The\ test\ class\ CounterTest.\r\n\r\n\ @author\ \ Khalid\ Kayyem\r\n\ @version\ 14-03-2025\r\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment2.params=
+comment2.target=void\ testAllRollOverCounterMethods()
+comment2.text=\r\n\ Tests\ the\ original\ (Lab\ 8)\ RollOverCounter\ methods.\r\n
+comment3.params=
+comment3.target=void\ testAllLimitedCounterMethods()
+comment3.text=\r\n\ Tests\ all\ LimitedCounter\ methods.\r\n
+comment4.params=
+comment4.target=void\ testNewRollOverCounterMethods()
+comment4.text=\r\n\ Tests\ new\ methods\ in\ RollOverCounter.\r\n
+comment5.params=
+comment5.target=void\ testNewLimitedCounterMethods()
+comment5.text=\r\n\ Tests\ new\ methods\ in\ LimitedCounter.\r\n
+numComments=6

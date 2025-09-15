@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TransporterRoom
+comment0.text=\r\n\ Class\ TranspoterRoom.\ \r\n\ a\ special\ type\ of\ room\ that\ teleports\ the\ player\ to\ a\ random\ room\ upon\ exit.\r\n\ \r\n\ A\ TransporterRoom\ overrides\ the\ default\ exit\ behavior.\ Instead\ of\ moving\ to\ a\ fixed\ room,\r\n\ it\ selects\ a\ random\ room\ from\ all\ available\ rooms.\ This\ adds\ an\ unpredictable\ element\ to\ the\ game.\r\n\r\n\ This\ class\ extends\ the\ Room\ class\ and\ inherits\ its\ attributes\ and\ behaviors.\r\n\ It\ introduces\ the\ concept\ of\ random\ teleportation\ upon\ attempting\ to\ exit.\r\n\ \r\n\ @author\ Khalid\ Kayyem,\ 101277502\r\n\ @version\ 16-03-2025\r\n
+comment1.params=description
+comment1.target=TransporterRoom(java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ TransporterRoom\ with\ the\ given\ description.\r\n\ \r\n\ The\ description\ specifies\ what\ the\ room\ looks\ like.\ The\ TransporterRoom\ behaves\ like\ a\ normal\ \r\n\ room\ except\ that\ it\ teleports\ the\ player\ to\ a\ random\ room\ when\ they\ try\ to\ leave.\r\n\ \r\n\ @param\ description\ A\ brief\ description\ of\ the\ room.\ \r\n
+comment2.params=direction
+comment2.target=Room\ getExit(java.lang.String)
+comment2.text=\r\n\ getExit.\ This\ method\ does\ not\ return\ a\ fixed\ exit.\r\n\ Instead,\ it\ randomly\ selects\ a\ room\ from\ the\ available\ list\ of\ rooms.\r\n\ \r\n\ @param\ direction\ The\ direction\ the\ player\ is\ trying\ to\ go.\r\n\ @return\ a\ randomly\ chosen\ room\r\n
+comment3.params=
+comment3.target=Room\ findRandomRoom()
+comment3.text=\r\n\ findRandomRoom.\ This\ method\ selects\ a\ random\ room\ from\ all\ available\ rooms.\r\n\r\n\ @return\ A\ randomly\ chosen\ room.\r\n
+numComments=4

@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Room
+comment0.text=\r\n\ Class\ room,\ represents\ a\ location\ in\ the\ "World\ of\ Zuul"\ adventure\ game.\r\n\ \r\n\ A\ Room\ is\ a\ specific\ area\ within\ the\ game\ world.\ Each\ room\ can\ have\ \r\n\ multiple\ exits\ leading\ to\ other\ rooms,\ allowing\ the\ player\ to\ move\ between\ them.\ \r\n\ The\ room\ also\ stores\ references\ to\ any\ items\ present\ within\ it.\r\n\ \r\n\ @author\ \ Michael\ Kolling\ and\ David\ J.\ Barnes\r\n\ @version\ 2006.03.30\r\n\ \r\n\ @author\ Lynn\ Marshall\r\n\ @version\ October\ 21,\ 2012\r\n\ \r\n\ @author\ Khalid\ Kayyem,\ 101277502\r\n\ @version\ 16-02-2025\r\n
+comment1.params=description
+comment1.target=Room(java.lang.String)
+comment1.text=\r\n\ Create\ a\ room\ described\ "description".\ Initially,\ it\ has\r\n\ no\ exits.\ "description"\ is\ something\ like\ "a\ kitchen"\ or\r\n\ "an\ open\ court\ yard".\r\n\ \r\n\ @param\ description\ The\ room's\ description.\r\n
+comment2.params=direction\ neighbour
+comment2.target=void\ setExit(java.lang.String,\ Room)
+comment2.text=\r\n\ Define\ an\ exit\ from\ this\ room.\r\n\ \r\n\ @param\ direction\ The\ direction\ of\ the\ exit\r\n\ @param\ neighbour\ The\ room\ to\ which\ the\ exit\ leads\r\n
+comment3.params=
+comment3.target=java.lang.String\ getShortDescription()
+comment3.text=\r\n\ Returns\ a\ short\ description\ of\ the\ room,\ i.e.\ the\ one\ that\r\n\ was\ defined\ in\ the\ constructor\r\n\ \r\n\ @return\ a\ string,\ The\ short\ description\ of\ the\ room\r\n
+comment4.params=
+comment4.target=java.lang.String\ getLongDescription()
+comment4.text=\r\n\ Returns\ a\ detailed\ long\ description\ of\ the\ room,\ including\ its\ exits\ and\ any\ items\ present.\r\n\ The\ format\ of\ the\ description\ is\:\r\n\ \r\n\ \ \ \ \ You\ are\ in\ [room\ description].\r\n\ \ \ \ \ Exits\:\ [available\ exits]\r\n\ \ \ \ \ Items\ in\ this\ room\:\r\n\ \ \ \ \ -\ [item\ 1]\r\n\ \ \ \ \ -\ [item\ 2]\r\n\ \ \ \ \ \r\n\ If\ there\ are\ no\ items\ in\ the\ room,\ it\ will\ state\ "No\ items\ here."\r\n\ \ \ \ \ \r\n\ @return\ A\ string\ containing\ the\ full\ description\ of\ the\ room,\ including\ exits\ and\ items.\r\n
+comment5.params=
+comment5.target=java.lang.String\ getExitString()
+comment5.text=\r\n\ Return\ a\ string\ describing\ the\ room's\ exits,\ for\ example\r\n\ "Exits\:\ north\ west".\r\n\ \r\n\ @return\ a\ String\ Details\ of\ the\ room's\ exits\r\n
+comment6.params=direction
+comment6.target=Room\ getExit(java.lang.String)
+comment6.text=\r\n\ The\ method\ getExit\ returns\ the\ room\ that\ is\ reached\ if\ we\ go\ from\ this\ room\ in\ direction\r\n\ "direction".\ If\ there\ is\ no\ room\ in\ that\ direction,\ return\ null.\r\n\ \r\n\ @param\ direction\ The\ exit's\ direction\r\n\ @return\ The\ room\ in\ the\ given\ direction\r\n
+comment7.params=item
+comment7.target=void\ addItem(Item)
+comment7.text=\r\n\ Adds\ an\ item\ to\ the\ room.\r\n\ @param\ item\ The\ item\ to\ be\ added.\r\n
+numComments=8

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlayerRollFourTimes
+comment0.text=\r\n\ This\ class\ models\ a\ player\ that\ will\ always\ roll\ the\ dice\ four\ times.\r\n\ @author\ (Khalid\ Kayyem)\r\n\ @version\ (Valentines\ day)\r\n
+comment1.params=dice\ name
+comment1.target=PlayerRollFourTimes(Dice,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PlayerRollFourTimes\r\n\ @param\ dice\ the\ pair\ of\ dice\r\n\ @param\ name\ the\ players\ name\r\n
+comment2.params=
+comment2.target=boolean\ stopRolling()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ @return\ true\ when\ the\ player\ decides\ to\ end\ the\ turn,\ false\ otherwise\ \r\n
+numComments=3

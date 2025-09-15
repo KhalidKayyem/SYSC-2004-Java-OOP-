@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\r\n\ The\ main\ program\ for\ the\ Monopoly\ Game.\r\n\r\n\ @author\ Lynn\ Marshall,\ SCE,\ Carleton\ University\r\n\ @version\ 1.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlayerTwenty
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ PlayerTwenty\ here.\r\n\r\n\ @author\ (Khalid\ Kayyem)\r\n\ @version\ (Valentines\ day)\r\n
+comment1.params=dice\ name
+comment1.target=PlayerTwenty(Dice,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PlayerTwenty\r\n\ @param\ dice\ the\ dice\ used\r\n\ @param\ name\ the\ player\ name\r\n
+comment2.params=
+comment2.target=boolean\ stopRolling()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ @return\ true\ when\ the\ player\ ends\ the\ turn,\ else\ false\r\n
+numComments=3
